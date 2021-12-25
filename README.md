@@ -1,7 +1,17 @@
-<h1>prime-numbers-generation</h1>
+
+<h1>prime-number-generation</h1>
+
+> Status: Developing ⚠️
+
+### It's a C++ code made by me. It basically generate the prime numbers in a specified range.
+
+## Some fields in the main code are:
++ control variable
++ sucessible division
+
+## What is still in development?
++ the entire code :/
 
 
-
-An algorithm to display the prime numbers within a specified range.
-
+  
 
