@@ -1,7 +1,7 @@
-# prime-numbers-generation
+<h1>prime-numbers-generation</h1>
 
-<html>
 
-<h1> An algorithm to display the prime numbers within a specified range.
 
-</html>
+An algorithm to display the prime numbers within a specified range.
+
+
