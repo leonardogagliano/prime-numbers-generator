@@ -1,36 +1,45 @@
 #include <stdio.h>
 
+
 int main(){
 	
-	int range=5, primes[10000];
-	int n = 1; //the vetor 'primes' position
-	int divs=0; //this variable will control the number of divisors of each 'j' number; if there are more than 2 divisors (1 and the number itself), 'j' isn't prime.
+	int min_range, max_range;
+	int primes[10000]; //prime list; can be changed if you wanted.
+	int n = 0; //the vetor 'primes' position
+	int divs=0; //this variable will control the number of divisors of each 'i' number; if there are more than 2 divisors (1 and the number itself), 'i' isn't prime.
 	
-	primes[0] = 2; // '2' is the first prime ever
+	printf(" Welcome to Prime Number Generator.\n\n Enter the range in which you want to generate the primes: \n\n");
 	
-	for(int i=3; i < range; i++){ 
-		for(int j=1; j <= i; j++){ //this second loop will verify if 'i' is divisible by the numbers smaller than it.
+	printf(" From: ");
+	scanf("%d", &min_range);
+	
+	printf(" To: ");
+	scanf("%d", &max_range);
+	
+	printf("\n\n");
+	
+	for(int i = min_range; i <= max_range; i++){ 
 		
+		for(int j = 1; j <= i; j++){ //each 'j' will divide all 'i' to verify the number of divisors.
 			if(i % j == 0){
 				divs++;
-				printf("%d\n", divs);
 			}
-		
-		
-		
-		
 		}
-			if(divs <= 2){
-				primes[n] = i;
-				n++;
-			}
+		
+		if(divs == 2){
+			primes[n]=i;
+			n++;
 			divs=0;
+		}else{
+			divs=0;
+		}
+		
 	}
-	s
-	/*for(int k=0; k<range; k++){
-		printf("%d\n", primes[k]);
-	}*/
-	
+
+	for(int i=0; i<n; i++){ //loop to print the prime list.
+		printf("%d\n", primes[i]);
+	}
+
 	return 0;
 }
 
