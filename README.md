@@ -1,5 +1,5 @@
 
-<h1>prime-number-generator</h1>
+<h1>prime-numbers-generator</h1>
 
 > Status: Finished ✔️ (for now)
 
