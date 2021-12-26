@@ -8,10 +8,3 @@
 ## Some fields in the main code are:
 + control variable
 + sucessible division
-
-## What is still in development?
-+ the entire code :/
-
-
-  
-
