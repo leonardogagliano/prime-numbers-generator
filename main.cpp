@@ -1,9 +1,12 @@
 #include <stdio.h>
 #include <windows.h>
-
+#include <fstream>
 
 int main(){
 	
+	std::ofstream file;
+	file.open("primes.txt");
+
 	int min_range, max_range;
 	int primes[10000]; //prime list; can be changed if you wanted.
 	int n = 0; //the vetor 'primes' position
@@ -39,7 +42,11 @@ int main(){
 
 	for(int i=0; i<n; i++){ //loop to print the prime list.
 		printf("%d\n", primes[i]);
+		
+		file<<primes[i]<<"\n";
 	}
+	
+	printf("\n");
 	
 	system("pause");
 
