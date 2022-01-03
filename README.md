@@ -20,7 +20,7 @@
     </th>
   </tr>
   <tr>
-    <th>numbers.txt</th>
+    <th>primes.txt</th>
     <th>Lists the prime numbers finded.</th>
     <th>-</th>
     
