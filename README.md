@@ -1,4 +1,4 @@
-<h1 align='center'>prime-numbers-generator</h1>
+<h1>prime-numbers-generator</h1>
 <p>A prime number generator coded with C++. It find the primes between a specified range and register them in a .txt file.</p>
 
 <h2>Components</h2>
