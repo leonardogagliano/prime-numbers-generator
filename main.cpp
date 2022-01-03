@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <windows.h>
 
 
 int main(){
@@ -8,7 +9,7 @@ int main(){
 	int n = 0; //the vetor 'primes' position
 	int divs=0; //this variable will control the number of divisors of each 'i' number; if there are more than 2 divisors (1 and the number itself), 'i' isn't prime.
 	
-	printf(" Welcome to Prime Number Generator.\n\n Enter the range in which you want to generate the primes: \n\n");
+	printf(" Welcome to Prime Numbers Generator.\n\n Enter the range in which you want to generate the primes: \n\n");
 	
 	printf(" From: ");
 	scanf("%d", &min_range);
@@ -39,6 +40,8 @@ int main(){
 	for(int i=0; i<n; i++){ //loop to print the prime list.
 		printf("%d\n", primes[i]);
 	}
+	
+	system("pause");
 
 	return 0;
 }
