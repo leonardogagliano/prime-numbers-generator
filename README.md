@@ -21,7 +21,7 @@
   </tr>
   <tr>
     <th>primes.txt</th>
-    <th>Lists the prime numbers finded.</th>
+    <th>Register the prime numbers finded.</th>
     <th>-</th>
     
   </table>
