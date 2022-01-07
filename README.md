@@ -1,6 +1,6 @@
 <h1>prime-numbers-generator</h1>
 
-> Status : Finished 🔢 (for now)
+> Status : Finished ✔️ (for now)
 
 <p>A prime numbers generator coded with C++. It finds the primes between a specified range and register them in a '.txt' file.</p>
 
