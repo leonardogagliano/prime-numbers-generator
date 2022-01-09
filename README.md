@@ -2,7 +2,7 @@
 
 > Status : Finished ✔️ (for now)
 
-<p>A prime numbers generator coded with C++. It finds the primes between a specified range and register them in a '.txt' file.</p>
+<p>A prime numbers generator coded with C++. It finds the primes between a specified range and registers them in a '.txt' file.</p>
 
 <h2>Components</h2>
   <table>
